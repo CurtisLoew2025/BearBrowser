@@ -22,7 +22,7 @@ jobs:
           gradle-version: '8.11.1'
 
       - name: Extract source
-                run: unzip -o BearBrowser-Auto-Experimental.zip
+        run: unzip -o BearBrowser-Auto-Experimental.zip
 
       - name: Install Android SDK components
         run: |
